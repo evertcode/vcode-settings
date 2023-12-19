@@ -1,0 +1,279 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/.git": true,
+    "**/.next": true
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.detectIndentation": true,
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.fontFamily": "'Cascadia Code LP', 'Fira Code', 'Anonymous Pro', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.language.brackets": [],
+  "editor.largeFileOptimizations": false,
+  "editor.letterSpacing": 0.2,
+  "editor.lineHeight": 22,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 120,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 120,
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "jsx": "javascriptreact",
+    "html": "html",
+    "css": "css",
+    "scss": "scss",
+    "sass": "sass",
+    "less": "less",
+    "php": "php",
+    "vue": "vue"
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.enable": true,
+  "eslint.packageManager": "npm",
+  "eslint.validate": [
+    "vue",
+    "react",
+    "typescript",
+    "html",
+    "javascript",
+    "jsx",
+    "css",
+    "scss",
+    "sass",
+    "less",
+    "php",
+    "vue"
+  ],
+  "explorer.autoReveal": true,
+  "explorer.openEditors.visible": 0,
+  "explorer.sortOrder": "type",
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.settingspath": true,
+    "**/.launch": true,
+    "**/.vscodeignore": true,
+    "**/.git": true,
+    "**/.gitattributes": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.ignoreMissingGitWarning": true,
+  "markdown.preview.fontSize": 36,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "search.useIgnoreFiles": false,
+  "terminal.integrated.fontSize": 12,
+  "workbench.colorTheme": "Just Black",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.tabCloseButton": "right",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.iconTheme": "symbols",
+  "workbench.panel.defaultLocation": "right",
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.renderWhitespace": "all",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "breadcrumbs.enabled": true,
+  "files.trimFinalNewlines": true,
+  "editor.insertSpaces": true,
+  "editor.semanticHighlighting.enabled": false,
+  "emojisense.languages": {
+    "java": true,
+    "javascriptreact": true,
+    "javascript": true,
+    "html": true,
+    "markdown": true,
+    "plaintext": {
+      "markupCompletionsEnabled": false,
+      "emojiDecoratorsEnabled": false
+    },
+    "scminput": true,
+    "git-commit": true
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "git.enableSmartCommit": true,
+  "svelte.ask-to-enable-ts-plugin": false,
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "errorLens.enabled": true,
+  "editor.formatOnType": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[oraclesql]": {
+    "editor.formatOnSave": false
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "redhat.telemetry.enabled": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.layoutControl.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sonarlint.rules": {
+    "python:S108": {
+      "level": "off"
+    }
+  },
+  "editor.stickyScroll.enabled": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "oracledevtools.bookmarkFileFolder": "/Users/ozzisotech/Oracle/oracle.oracledevtools",
+  "oracledevtools.download.otherFolder": "/Users/ozzisotech/downloads",
+  "oracledevtools.connectionConfiguration.configFilesFolder": "/Users/ozzisotech/Oracle/network/admin",
+  "oracledevtools.connectionConfiguration.walletFileFolder": "/Users/ozzisotech/Oracle/network/admin",
+  "errorLens.excludeBySource": [
+    "eslint(comma-dangle)",
+    "eslint(quotes)",
+    "sonarlint(typescript:S3504)"
+  ],
+  "symbols.hidesExplorerArrows": false,
+  "workbench.editor.tabActionLocation": "right"
+}
